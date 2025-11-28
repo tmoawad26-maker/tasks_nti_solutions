@@ -24,15 +24,15 @@ radius = double.parse(stdin.readLineSync()!);
 double areaCircle = pi * pow(radius,2);
  print(areaCircle.toStringAsPrecision(9));
 // 4.Age in Days
-// int age;
-// stdout.write('Enter your age: ');
-// age = int.parse(stdin.readLineSync()!);
-// int ageYear = age ~/ 365;
-// int ageMonth = ageYear % 12;
-// int ageDay = (age%365) % 30;
-// print('$ageYear years');
-// print('$ageMonth months');
-// print('$ageDay days');
+int age;
+stdout.write('Enter your age: ');
+age = int.parse(stdin.readLineSync()!);
+int ageYear = age ~/ 365;
+int ageMonth = ageYear % 12;
+int ageDay = (age%365) % 30;
+print('$ageYear years');
+print('$ageMonth months');
+print('$ageDay days');
 // 5.print Summation 1 to n
 // int n;
 // stdout.write('Enter the input: ');
