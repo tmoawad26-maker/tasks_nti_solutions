@@ -34,15 +34,15 @@ print('$ageYear years');
 print('$ageMonth months');
 print('$ageDay days');
 // 5.print Summation 1 to n
-// int n;
-// stdout.write('Enter the input: ');
-// n = int.parse(stdin.readLineSync()!);
-// int sum = 0;
-// for(int i = 1 ; i <= n ; i++)
-//  {
-//   sum += i;
-//  }
-// print('Sum of numbers = $sum');
+int n;
+stdout.write('Enter the input: ');
+n = int.parse(stdin.readLineSync()!);
+int sum = 0;
+for(int i = 1 ; i <= n ; i++)
+ {
+  sum += i;
+ }
+print('Sum of numbers = $sum');
 // 6.print 2 last of digits
 // int iNum1 , iNum2 , iNum3 , iNum4;
 // iNum1 = int.parse(stdin.readLineSync()!);
