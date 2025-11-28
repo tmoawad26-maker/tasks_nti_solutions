@@ -11,18 +11,18 @@ void main()
   print('$iNum1 - $iNum2 = ${iNum1 - iNum2}');
   print('$iNum1 * $iNum2 = ${iNum1  * iNum2}');
 // 2.Difference
-// int a , b,c,d;
-// a = int.parse(stdin.readLineSync()!);
-// b = int.parse(stdin.readLineSync()!);
-// c = int.parse(stdin.readLineSync()!);
-// d = int.parse(stdin.readLineSync()!);
+int a , b,c,d;
+a = int.parse(stdin.readLineSync()!);
+b = int.parse(stdin.readLineSync()!);
+c = int.parse(stdin.readLineSync()!);
+d = int.parse(stdin.readLineSync()!);
 // print('Difference = ${(a*b) - (c*d)}');
-// 3.area of Circle
-// double radius ;
-// stdout.write('Enter the radius: ');
-// radius = double.parse(stdin.readLineSync()!);
-// double areaCircle = pi * pow(radius,2);
-//  print(areaCircle.toStringAsPrecision(9));
+// // 3.area of Circle
+double radius ;
+stdout.write('Enter the radius: ');
+radius = double.parse(stdin.readLineSync()!);
+double areaCircle = pi * pow(radius,2);
+ print(areaCircle.toStringAsPrecision(9));
 // 4.Age in Days
 // int age;
 // stdout.write('Enter your age: ');
