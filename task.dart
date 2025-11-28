@@ -44,12 +44,12 @@ for(int i = 1 ; i <= n ; i++)
  }
 print('Sum of numbers = $sum');
 // 6.print 2 last of digits
-// int iNum1 , iNum2 , iNum3 , iNum4;
-// iNum1 = int.parse(stdin.readLineSync()!);
-// iNum2 = int.parse(stdin.readLineSync()!);
-// iNum3 = int.parse(stdin.readLineSync()!);
-// iNum4 = int.parse(stdin.readLineSync()!);
-// int result = (iNum1 * iNum2 * iNum3 * iNum4) % 100;
-// print(result);
-// print('Hello World');
+int iNum1 , iNum2 , iNum3 , iNum4;
+iNum1 = int.parse(stdin.readLineSync()!);
+iNum2 = int.parse(stdin.readLineSync()!);
+iNum3 = int.parse(stdin.readLineSync()!);
+iNum4 = int.parse(stdin.readLineSync()!);
+int result = (iNum1 * iNum2 * iNum3 * iNum4) % 100;
+print(result);
+
 }
