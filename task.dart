@@ -53,5 +53,37 @@ iNum3 = int.parse(stdin.readLineSync()!);
 iNum4 = int.parse(stdin.readLineSync()!);
 int result = (iNum1 * iNum2 * iNum3 * iNum4) % 100;
 print(result);
+// FizzBuzz
+  int n;
+  stdout.write('Enter the input: ');
+  n = int.parse(stdin.readLineSync()!);
+  List<String> nums = ['0'];
+  print(nums[0]);
+  List<String> fizzBuzz = ['0'];
+  nums[0] = '0';
+  for(int i = 1 ; i < n ; i++)
+  {
+    nums.add(i.toString());
+    if(i % 5 == 0 && i % 3 == 0)
+    {
+      nums[i] = 'FizzBuzz';
+      fizzBuzz.add(nums[i]);
+    }  if(i % 3 == 0)
+    {
+      nums[i] = 'Fizz';
+      fizzBuzz.add(nums[i]);
+    }  if(i % 5 == 0)
+    {
+      nums[i] = 'Buzz';
+      fizzBuzz.add(nums[i]);
+    } else
+    {
+      fizzBuzz.add(nums[i]);
+    }
+  }
+  for(int i = 1 ; i < n ; i++)
+  {
+    print(fizzBuzz[i]);
+  }
 
 }
