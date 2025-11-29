@@ -1,5 +1,23 @@
 import 'dart:io';
 import 'dart:math';
+void twoSum(List<int> arr , int target)
+{
+  int idx1 = -1, idx2 = -1;
+  for(int i = 0 ; i < arr.length ; i++)
+  {
+    int sum = 0;
+    for(int j = 1 ; j < arr.length ; j++)
+    {
+      sum = arr[i]+arr[j];
+      if(sum == target)
+      {
+        idx1 = i;
+        idx2 = j;
+      }
+    }
+  }
+  print('$idx1 $idx2');
+}
 void main()
 {
   // 1.Simple Calculator
@@ -85,5 +103,12 @@ print(result);
   {
     print(fizzBuzz[i]);
   }
+  List<int> list = [0];
+  for(int i = 0 ; i < list.length ; i++)
+  {
+    list[i] = int.parse(stdin.readLineSync()!);
+  }
+  int target = int.parse(stdin.readLineSync()!);
+  twoSum(list , target);
 
 }
